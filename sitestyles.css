@@ -1,0 +1,746 @@
+html{
+    background-color:  #f0efeb;
+}
+*{
+    margin:0;
+    background:border-box;
+}
+
+/* Navigation Bar */
+
+.flexnavbar{
+    display:flex;
+    justify-content:center;
+    position: relative;   
+    z-index:5;
+}
+
+.leftnav{
+    margin-left: -17rem;
+    width:400px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.navbar{ 
+  font-size:16px;
+  font-family:sans-serif;
+  position:fixed;
+  top:15px;
+  color:#d8f3dc;
+  background-color: #081c15;
+  height:3.75rem;
+  width:90%;
+  border-radius:25px;  
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.color{
+    color:#d8f3dc;
+}
+
+.backgroundcolor{
+    background-color:#d8f3dc;
+}
+
+.color:hover{
+    color:#08A045;
+}
+
+.backgroundcolor:hover{
+    background-color:#08A045;
+    color:#d8f3dc;
+}
+
+
+.logo{
+    display:flex;
+    justify-content: left;
+    align-items:center;
+    height:55px;
+    width:190px;
+    margin-top: -3px;
+    background-color: #081c15;
+    background-image: url(mainlogo-3.png);
+    background-size: cover;
+}
+
+.rightnav{
+    font-size:16px;
+    font-family:sans-serif;
+    height:41px;
+    width:235px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: -13rem;
+}
+
+.contact{ 
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   background-color:#d8f3dc;
+   color:#004148;
+   height:2rem;
+   width:10rem;
+   border-radius:50px;
+}
+
+.instalogo{
+    font-size: 30px;
+    margin-right: 1rem;
+}
+
+.instasize{
+    border-radius:10px;
+    background: linear-gradient(360deg, rgb(254, 218, 117), rgb(250, 126, 30), rgb(214, 41, 118),rgb(50, 47, 191),rgb(79, 91, 213));
+}
+
+.ytlogo{
+    font-size: 30px;
+    margin-right: 1rem;
+    color:#ff0000;
+}
+
+.border{
+    border:2px solid transparent;
+}
+
+.border:hover{
+    border:2px solid #ffffff;
+}
+
+/* Main Slider */
+
+.hero-section{
+    display:flex;
+    justify-content: center;
+    z-index: -1;
+}
+
+.outer{
+    display: flex;
+    align-items: center;
+    height:36.063rem;
+    width:84.625rem;
+    border-radius: 50px;
+    margin-top:100px;
+    background-color: #ffffff;
+    position:absolute;
+}
+
+.inner{
+    height:577px;
+    width:1354px;
+    border-radius: 50px;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.innercontent{
+   align-self:center;
+   width:441px;
+   height:140px;
+   margin-left: 50px;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+.main-heading{
+    font-size:45px;
+    color:#08A045;
+    font-weight:bold;
+    margin-bottom:10px;
+}
+
+.main-content{
+    color:#1b4332;
+    font-size:22.5px;
+}
+
+.inner-buttons{
+    color:#1b4332;
+    font-size:14px;
+    font-family: 'Times New Roman', Times, serif;
+    width:400px;
+    height:42px;
+    margin-left: 40px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top:25rem;
+    left:30px;
+}
+
+.contact-us{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7e5d0;
+  border-radius: 25px;
+  width:157px;
+  height:42px;
+}
+
+.know-more{
+  border:2px solid #1b4332;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 25px;
+  width:157px;
+  height:42px;
+}
+
+.knowmore-arrow{
+    margin-left:-10px;
+    margin-top:3px;
+}
+
+.contact-us:hover{
+  color:#ffffff;
+  background-color:#1b4332;
+}
+
+.know-more:hover{
+  color:#ffffff;
+  background-color:#1b4332;
+}
+
+.innerimg{
+    display: flex;
+    justify-content: flex-end;
+    height:450px;
+    width:800px;
+    border-top-left-radius:50px;
+    border-bottom-left-radius:50px;
+    /* box-shadow:10px 20px 20px 3px #9f9f9f; */
+    background-image:url(https://newyorkspaces.com/wp-content/uploads/2024/01/Minimalist-contemporary-living-room-interior-design-in-white-tones.-Parquet-sofa-and-many-house-plants.jpg);    
+    background-size: cover; 
+}
+
+/* Leafy Bckground */
+
+.background-leaf-pattern{
+    height:auto;
+    width:100%;
+    /* background-color: #ff0000; */
+    display:flex;
+    justify-content:space-between;
+    align-items: end;
+    position:relative;
+    top: 1100px;
+    z-index:-4;
+}
+
+.img1{
+    height:600px;
+    width:500px;
+    margin-right:472px;
+    background: url(monstera.png);
+    background-size: 450px 350px;
+    background-position: 0px 10%;
+    background-repeat: no-repeat;
+    filter:brightness(0%);
+}
+
+.img2{
+    height:800px;
+    width:500px;
+    background: url(palm2-removebg-preview.png);
+    background-size: cover;
+    filter:brightness(0%);
+}
+
+/* Service-Section */
+
+.service-section{
+    margin-top:-100px;
+    height:360px;
+    width:100%;
+    display: flex;
+    justify-content:center;
+    align-items: end;
+    padding-bottom: 30px;
+    background-color: #ffffff;
+    color:#08A045;
+    font-size: larger;
+    z-index:0;
+}
+
+#serv-head{
+    width:500px;
+    background-color:  #f0efeb;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    align-self:flex-start;
+    position: absolute;
+    left:0px;
+    border-bottom-right-radius: 600px;
+    z-index: 1;
+    text-align:center;
+}
+
+#blank1{
+    height:28px;
+    width:35px;
+    background-color: #f0efeb;
+    padding-left: 10px;
+    align-self:flex-start;
+    position: absolute;
+    left:515px;
+    z-index: 2;
+}
+
+#blank2{
+    height:64px;
+    width:100px;
+    background:linear-gradient(180deg, rgba(255,255,255,1) 50%,rgba(255,0,0,0) 50%);
+    padding-left: 10px;
+    align-self:flex-start;
+    position: absolute;
+    left:504px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius:-50px;
+    z-index:3;
+}
+
+.serv{
+    height:17.313rem;
+    width:18.75rem;
+    z-index:4;
+}
+
+#serv1{
+  background: linear-gradient(to top, rgba(0,0,0,0.75), transparent), url(https://hips.hearstapps.com/hmg-prod/images/how-to-repot-plants-1656986394.jpg);
+  background-size: cover;
+}
+
+#serv2{
+    background: linear-gradient(to top, rgba(0,0,0,0.75), transparent), url(https://images.squarespace-cdn.com/content/v1/5e220eedcbce352b4f23fe55/1579352594641-YAFB3X0722A5X7XEZ32Z/Corporate+Office+Plants?format=750w);
+    background-size: cover;
+}
+
+#serv3{
+    background: linear-gradient(to top, rgba(0,0,0,0.75), transparent), url(https://cdn.shopify.com/s/files/1/0555/8363/7660/files/Urban-plants-what-is-vertical-gardening.jpg?v=1650942068);
+    background-size: cover;
+}
+
+#serv4{
+    background: linear-gradient(to top, rgba(0,0,0,0.75), transparent), url(https://www.bloomspace.com.au/wp-content/uploads/dumb-cane-dieffenbachia.jpg);
+    background-size: cover;
+}
+
+#serv5{
+    background: linear-gradient(to top, rgba(0,0,0,0.75), transparent), url(https://casadeamor.in/cdn/shop/products/casadeamorminigardentool-1.jpg?v=1694412530&width=1445);
+    background-size: cover;
+}
+
+.service-text{
+    color: #ffffff;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:bold;
+    display: flex;
+    justify-content:center;
+    padding-top:80%;
+    z-index:1;
+}
+
+.serv:hover{
+    height:307px;
+    width:330px;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.8);
+}
+
+#serv1:hover{
+    background: linear-gradient(to top, rgba(0,0,0,0), transparent), url(https://hips.hearstapps.com/hmg-prod/images/how-to-repot-plants-1656986394.jpg);
+    background-size: cover;
+  }
+  
+#serv2:hover{
+      background: linear-gradient(to top, rgba(0,0,0,0), transparent), url(https://images.squarespace-cdn.com/content/v1/5e220eedcbce352b4f23fe55/1579352594641-YAFB3X0722A5X7XEZ32Z/Corporate+Office+Plants?format=750w);
+      background-size: cover;
+  }
+  
+#serv3:hover{
+      background: linear-gradient(to top, rgba(0,0,0,0), transparent), url(https://cdn.shopify.com/s/files/1/0555/8363/7660/files/Urban-plants-what-is-vertical-gardening.jpg?v=1650942068);
+      background-size: cover;
+  }
+  
+#serv4:hover{
+      background: linear-gradient(to top, rgba(0,0,0,0), transparent), url(https://www.bloomspace.com.au/wp-content/uploads/dumb-cane-dieffenbachia.jpg);
+      background-size: cover;
+  }
+
+#serv5:hover{
+    background: linear-gradient(to top, rgba(0,0,0,0), transparent), url(https://casadeamor.in/cdn/shop/products/casadeamorminigardentool-1.jpg?v=1694412530&width=1445);
+    background-size: cover;}
+
+/* What sets us apart?- Section */
+
+.main-3-outer{
+    height:auto;
+    width:95%;
+    margin-left: 30px;
+    background-color:transparent;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    z-index:-2;
+    border-radius:25px;
+}
+
+#main-3-heading{
+    text-align: center;
+    font-size:50px;
+    margin-top:10px;
+    font-family: Nunito;
+    font-weight: bold;
+    color:rgb(59, 54, 99);
+    position: absolute;
+}
+
+#hr-left{
+    margin-top:10px;
+    background-color: rgb(59, 54, 99);
+    border:3px solid rgb(59, 54, 99, 0.1);
+    border-radius: 15px;
+    width:200px;
+    margin-left: 720px;
+    position: absolute;
+    top:1120px;
+}
+
+#hr-right{
+    margin-top:10px;
+    background-color: rgb(59, 54, 99);
+    border:3px solid rgb(59, 54, 99, 0.1);
+    border-radius: 15px;
+    width:200px;
+    margin-left: -720px;
+    position: absolute;
+    top:1120px;
+}
+
+.inners{
+    width:366.66px;
+    height:232px;
+    background-color:white;
+    border-color: #000000;
+    border-radius: 5%;
+    margin-top: 70px;
+    text-align: center;
+    box-shadow: 0 0 20px 10px rgb(188, 188, 188, 0.3);
+}
+
+.inner-text{
+    color:#3b3663;
+    font-size: 25px;
+    display: flex;
+    justify-content:center;
+    padding-top: 190px;
+}
+
+.top-div{
+    margin-top: 90px;
+    margin-bottom:-50px;
+}
+
+.bottom-div{
+    margin-bottom:50px;
+}
+
+.col1{
+    margin-right:-150px;
+}
+
+.col2{
+    margin-left:-150px;
+}
+
+.i11{
+    background-image: url(https://img.freepik.com/free-vector/marketer-measuring-customer-satisfaction-rating-stars-satisfaction-loyalty-analysis-customer-retention-increasing-marketing-tools-concept-illustration_335657-2366.jpg);
+    background-size:300px 200px ;
+    background-position:center 0;
+    background-repeat: no-repeat;
+}
+
+.i12{
+    background-image: url(https://img.freepik.com/premium-vector/time-management-concept-businessmen-is-going-back-home-after-work-success-by-skateboard-task-completed-finished-work-concept-flat-style-vector-illustration_1150-55441.jpg);
+    background-size: 300px 200px;
+    background-position:center -5px;
+    background-repeat: no-repeat;
+}
+
+.i21{
+    background-image: url(https://img.freepik.com/premium-vector/woman-running-with-shopping-cart-online-shop-ecommerce-online-shopping-concept-vector-illustration_77116-2130.jpg);
+    background-size:300px 230px ;
+    background-position:center -20px;
+    background-repeat: no-repeat;
+}
+
+.i22{
+    background-image: url(https://img.freepik.com/free-vector/iso-certification-illustration-with-people-notepad_23-2148689291.jpg);
+    background-size:300px 240px ;
+    background-position:center -20px;
+    background-repeat: no-repeat;
+}
+
+/* Want to Know About Me...? */
+
+.main-4{
+    height:auto;
+    width:100%;
+    background-color: #f0f0f0;
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.5);
+    display:flex;
+    background-image: url(potted\ plants-pana\ \(2\).png);
+    filter:opacity(100%);
+    background-size:430px 380px;
+    background-position: 110% 105%;
+    background-repeat:no-repeat;
+}
+
+.main-4-img{
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height:450px;
+    width:450px;
+    background-image:url(My-Pic.jpeg);
+    background-size: 400px 550px;
+    background-position: 50px 0;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    box-shadow:0 0 10px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+.main-4-content{
+    display: flex;
+    width:55%;
+    height:auto;
+    padding-left:50px;
+    padding-top:30px;
+    flex-wrap: wrap;
+    background-color: transparent;
+}
+
+#content-main-heading{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:41px;
+}
+
+#about-me-content{
+    width:85%;
+    padding-top: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:25px;
+}
+
+.contact-me{
+    flex-wrap: wrap;
+}
+
+#main-heading-2{
+    display: block;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:31px;
+    padding-top: 20px;
+}
+
+#main-4-icons{
+    margin-top:25px;
+    width:350px;
+    display: flex;
+    justify-content:space-between;
+    font-size: 50px;
+    transition-property: all;
+    transition-duration:3s;
+    transition-timing-function: ease-in-out;
+}
+
+#main-4-icons a{
+    color:#000000;
+}
+
+.main-4-hover:hover{
+    color:#0906c7;
+}
+
+/* Suggestion Form */
+
+#suggestion-box-outer{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: auto;
+    color:#ffffff;
+}
+
+#suggestion-box{
+    height:auto;
+    width:80%;
+    margin-top: 50px;
+    background-color:#081c15;
+}
+
+#form-heading{
+    font-size: 45px;
+    margin:30px 30px;
+}
+
+#form-secondry-heading{
+    font-size: 30px;
+    margin:15px 35px;
+    
+}
+
+#form-content{
+    flex-wrap: wrap;
+}
+
+input, textarea{
+    color:#000000;
+    height:40px;
+    width:500px;
+    margin-left: 30px;
+    border:2px solid black;
+    font-size: large;
+    border-radius: 10px;
+}
+
+::placeholder{
+    padding-left: 10px;
+}
+
+#form-name{
+    display: flex;
+    justify-content: flex-start;
+}
+
+#email{
+    width:700px;
+}
+
+#suggestion-area{
+    display: block;
+    height:90px;
+    width:700px;
+    font-size: 20px;
+    color:white;
+}
+
+#form-button{
+    font-size: larger;
+    font-weight: bold;
+    background-color: #ffffff;
+    margin:30px 35px;
+    width:120px;
+    height:60px;
+    border-radius: 40px;
+    border: 1px solid #000000;
+}
+
+#form-button:hover{
+    color:#ffffff;
+    background-color: #000000;
+}
+
+/* Site-Footer */
+
+footer{
+    margin-top: 50px;
+}
+
+.footer-outer{
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+    height:300px;
+    width:100%;
+    background:linear-gradient(90deg, #081c15 10%, #1b4332, #2d6a4f, #40916c, #52b788, #74c69d, #95d5b2, #b7e4c7, #d8f3dc);
+}
+
+#footer-hr{
+    border:1px solid black;
+}
+
+#rights{
+    color:#000000;
+    font-size: medium;
+    text-align: center;
+    padding:10px 10px ;
+}
+
+#footer-logo{
+    height:260px;
+    width:260px;
+    border-radius: 50%;
+    background-color: #000000;
+    background-image: url(Circle-logo.png);
+    background-position: center center;
+    background-size: 600px 450px;
+    box-shadow: 0px 0px 50px 0px #000000;
+}
+
+#newsletter-input{
+    display: block;
+    margin-right: 30px;
+}
+
+#newsletter-heading{
+    font-size: 31px;
+    padding:10px;
+    padding-left:30px;
+}
+
+#newsletter-button{
+    font-size: large;
+    margin:10px;
+    margin-left:30px;
+    height:40px;
+    width:80px;
+    border-radius: 20px;
+    border: 2px solid #000000;
+}
+
+#footer-nav-buttons{
+    font-size:25px;
+}
+
+.footer-text{
+    text-decoration: none;
+}
+
+.footer-text:hover{
+    text-decoration: underline;
+}
+
+#connect-us{
+    margin-top:-130px;
+    font-size:35px;
+}
+
+#connect-us a{
+    color:#000000;
+}
+
+#connect-us a:hover{
+    margin-top:-150px;
+}
+
+button:hover{
+    color:#ffffff;
+    background-color: #000000;
+}
+
+
+
+
