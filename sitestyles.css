@@ -38,6 +38,11 @@ html{
   align-items: center;
 }
 
+#services-navigation{
+    text-decoration: none;
+    color:#d8f3dc;
+}
+
 .color{
     color:#d8f3dc;
 }
@@ -47,6 +52,10 @@ html{
 }
 
 .color:hover{
+    color:#08A045;
+}
+
+#services-navigation:hover{
     color:#08A045;
 }
 
@@ -184,6 +193,11 @@ html{
   border-radius: 25px;
   width:157px;
   height:42px;
+}
+
+#footer-on-click{
+    text-decoration: none;
+    color:#1b4332;
 }
 
 .know-more{
